@@ -113,7 +113,9 @@ p {
     color: blue;
     text-align: center;
   }
-  img {
-    display: none;
+
+  .email {
+    font-size: 25px;
+    color: green;
   }
 }
