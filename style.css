@@ -1,0 +1,105 @@
+:root {
+  --main-color: #5151b3;
+  --help-color: #f9f9f8;
+  --back-gradient: linear-gradient(
+    89.9deg,
+    rgb(208, 246, 255) 0.1%,
+    rgb(237, 248, 255) 47.9%,
+    rgb(255, 255, 231) 100.2%
+  );
+}
+
+body {
+  margin: 60px auto;
+  max-width: 2000px;
+  background: var(--back-gradient);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+p {
+  background: var(--help-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.navigation a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact {
+  background: var(--main-color);
+  box-shadow: rgb(53, 8, 65);
+  color: white;
+}
+
+.about {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.homepage {
+  color: var(--main-color);
+  text-align: center;
+  display: block;
+}
+
+.aboutParagr {
+  display: flex;
+  margin: 30px 0;
+}
+
+.aboutParagr p {
+  margin: 10px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+.button-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--main-color);
+  box-shadow: var(--help-color);
+  color: white;
